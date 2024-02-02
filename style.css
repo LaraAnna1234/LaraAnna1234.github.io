@@ -1,0 +1,41 @@
+/* style.css */
+
+body {
+    font-family: 'Playfair Display', serif; /* Playfair Display als het hoofdlettertype */
+    background-color: #192657; /* Witte achtergrondkleur */
+    color: #e1e1ef; /* Donkergrijze tekstkleur */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: #001f3f; /* Donkerblauwe achtergrondkleur voor de balken aan de zijkanten */
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif; /* Playfair Display als het lettertype voor de titel */
+    color: #eae9f1; /* Rode tekstkleur voor de titel */
+    margin-bottom: 20px; /* Ruimte onder de titel */
+}
+
+h2 {
+    font-family: 'Playfair Display', serif; /* Playfair Display als het lettertype voor de spelnaam */
+    color: #e3dbd4; /* Oranje tekstkleur voor de spelnaam */
+    border: 2px solid #f3efec; /* Oranje rand om de spelnaam */
+    padding: 10px; /* Ruimte binnen de rand van de spelnaam */
+    margin-bottom: 20px; /* Ruimte onder de spelnaam */
+}
+
+p {
+    font-family: 'Playfair Display', serif; /* Playfair Display als het lettertype voor uitleg */
+    color: #e0e1e5; /* Donkergrijze tekstkleur voor uitleg */
+    margin-bottom: 30px; /* Ruimte onder de uitleg */
+}
+
+/* Voeg hier eventueel meer stijlen toe voor andere elementen op je pagina */
